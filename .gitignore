@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies/build artifacts
+vendor/
+node_modules/
+
+# Runtime writable data
+writable/logs/
+writable/session/
+writable/debugbar/
+writable/cache/
+writable/uploads/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/*.log
